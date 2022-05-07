@@ -11,7 +11,11 @@ app.use(express.json());
 app.use(router);
 
 const getPrices = async () => {
-  const request = await getPricesUber();
+  const latExample = -3.7560474;
+  const longExample = -3.7560474;
+  const latExample2 = -3.7560474;
+  const longExample2 = -3.7560474;
+  const request = await getPricesUber({latExample, longExample, latExample2, longExample2});
   request.json().then(json => {
     const fares = json.data.fareEstimate.fares;
 
