@@ -1,9 +1,9 @@
-import { Request, Response } from 'express';
+import { EstimatePriceUberService } from "./services/EstimatePriceUberService";
+import { Request, Response } from "express";
 
-class EstimatePricesController {
-    async getPricesUber(request: Request, response: Response) {
-        const { token } = request.body;
-
-        return response.json("Success").status(200);
-    }
+export class EstimatePricesController {
+  async getPricesUber(request: Request, response: Response) {
+    const data = await new EstimatePriceUberService().getPrices();
+    return response.json(data).status(200);
+  }
 }
