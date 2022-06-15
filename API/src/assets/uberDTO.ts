@@ -1,8 +1,8 @@
 interface Coordinates {
-  pickUpLat?: number;
-  pickUpLong?: number;
-  dropLat?: number;
-  dropLong?: number;
+  pickUpLat?: string;
+  pickUpLong?: string;
+  dropLat?: string;
+  dropLong?: string;
 }
 
 export { Coordinates };

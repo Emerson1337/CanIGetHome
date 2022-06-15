@@ -7,6 +7,9 @@ const estimatePricesController = new EstimatePricesController();
 
 //API ROUTES
 //AUTH AND OTHER THINS ABOUT USER
-router.get("/api/get-prices", estimatePricesController.getPricesUber);
+router.get(
+  "/api/get-prices/:dropoff/:pickup",
+  estimatePricesController.getPricesUber
+);
 
 export default router;
