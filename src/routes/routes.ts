@@ -1,5 +1,6 @@
-import { EstimatePricesController } from "./../modules/uberEstimate/EstimatePricesController";
 import { Router } from "express";
+
+import { EstimatePricesController } from "./../modules/uberEstimate/EstimatePricesController";
 
 const router = Router();
 
@@ -11,5 +12,11 @@ router.get(
   "/api/get-prices/:dropoff/:pickup",
   estimatePricesController.getPricesUber
 );
+
+router.get("/api", async () => {
+  return {
+    success: "allright",
+  };
+});
 
 export default router;
