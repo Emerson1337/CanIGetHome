@@ -1,4 +1,4 @@
-import { Router } from "express";
+import { Request, Response, Router } from "express";
 
 import { EstimatePricesController } from "./../modules/uberEstimate/EstimatePricesController";
 
@@ -13,10 +13,8 @@ router.get(
   estimatePricesController.getPricesUber
 );
 
-router.get("/api", async () => {
-  return {
-    success: "allright",
-  };
+router.get("/api", async (request: Request, response: Response) => {
+  return response.json({ success: "ok" }).status(200);
 });
 
 export default router;
