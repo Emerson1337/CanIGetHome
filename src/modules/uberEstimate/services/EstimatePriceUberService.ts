@@ -17,6 +17,9 @@ export class EstimatePriceUberService {
     let prices: string = "";
 
     await request.json().then((json) => {
+      if (!json.data.fareEstimate.fares) {
+        return;
+      }
       const fares = json.data.fareEstimate.fares;
       for (const key in fares) {
         if (Object.prototype.hasOwnProperty.call(fares, key)) {
