@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules ./src/server.ts"
+    "start": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules ./src/server.ts"
   },
   "dependencies": {
     "@types/node-fetch": "^2.6.1",
