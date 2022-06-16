@@ -17,10 +17,14 @@ export class EstimatePriceUberService {
     let prices: string = "";
 
     await request.json().then((json) => {
-      if (!json.data.fareEstimate.fares) {
-        return;
+      let fares: any;
+      console.log(json.data.fareEstimate);
+      if (json.data.fareEstimate) {
+        fares = json.data.fareEstimate.fares;
+      } else {
+        return "Something's wrong";
       }
-      const fares = json.data.fareEstimate.fares;
+
       for (const key in fares) {
         if (Object.prototype.hasOwnProperty.call(fares, key)) {
           const element = fares[key];
