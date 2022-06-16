@@ -29,11 +29,11 @@ export class EstimatePriceUberService {
         if (Object.prototype.hasOwnProperty.call(fares, key)) {
           const element = fares[key];
           if (key == "20022265") {
-            prices += `  Comfort: ${element.fare}`;
+            prices += ` 😃Comfort: ${element.fare}`;
           } else if (key == "20027725") {
-            prices += `  UberX: ${element.fare}`;
+            prices += ` 😄UberX: ${element.fare}`;
           } else if (key == "20034913") {
-            prices += `  Moto: ${element.fare}`;
+            prices += ` 😁Moto: ${element.fare}`;
           }
         }
       }
