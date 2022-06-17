@@ -56,7 +56,7 @@ Well as you can see my macro do the follow steps:
 - When the trigger is fired my macro get my current localization.
 - Make a http request with method **GET** to my API passing my current localization and drop off localization that I put into a variable inside the app
 - Wait three seconds
-- And make and notification that’s showed on my mi band 6.
+- And make notification that’s showed on my mi band 6.
 
 ## **RESULT**
 
