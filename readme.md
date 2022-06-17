@@ -10,7 +10,7 @@ The main idea is the possibility to me to get the estimate uber rides prices thr
 
 # **Well**, **how the hell did you do that**?
 
-Firstly, you should know that the mi band 6 don’t make all work, actually my phone and an API made by me do all works.
+Firstly, you should know that the mi band 6 don’t make all work, actually my phone and an API made by me do all work.
 
 Ok… Right… The first question that I had when I decided to do this automatization it’s how can I get prices uber from a place to another place. Like, how can I access this info? How can I pass my localization pickup and where I wish drop off? And there I thought about web scraping to do that work. Ok, I’m lying if I told you that was my first thought. Actually I was search about Uber API and I didn’t find anything very clear. So, when I was sad about the idea, I thought made a web scraping.
 
