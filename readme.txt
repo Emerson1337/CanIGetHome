@@ -20,11 +20,11 @@ Follow the images about route
 
 Payload:
 
-![image](https://user-images.githubusercontent.com/58860863/174215464-edb54c72-00da-42c8-bce9-8cb9d8eb4bc1.png)
+![image1](https://user-images.githubusercontent.com/58860863/174215464-edb54c72-00da-42c8-bce9-8cb9d8eb4bc1.png)
 
 Response
 
-![image](https://user-images.githubusercontent.com/58860863/174215492-8a7ac7ac-73e0-47fd-b05f-af75974e97b6.png)
+![image2](https://user-images.githubusercontent.com/58860863/174215492-8a7ac7ac-73e0-47fd-b05f-af75974e97b6.png)
 
 Of course that I send some info even that above, like my authentication cookie inside headers but I don’t want to show it for you 🥵. You  know 😏, I’m dumb but not so.
 
@@ -38,7 +38,7 @@ WELLL. So as you see some values its returned inside an object called fares insi
 
 And as you can see inside the code object has your related prices:
 
-![image](https://user-images.githubusercontent.com/58860863/174215528-b3516158-c98e-4fc7-967c-a252ad0a2fee.png)
+![image3](https://user-images.githubusercontent.com/58860863/174215528-b3516158-c98e-4fc7-967c-a252ad0a2fee.png)
 
 All right. If I can get this data from my API that means I do the hard work. And I did it and I built an API that have a get prices route receiving two main parameters: pickup coordinates and drop off coordinates. You can read more about the code reading my repository on GitHub. 
 
@@ -48,7 +48,7 @@ After built the API the next step its to configure my phone to make some request
 
 ## **THE MACROGOD**
 
-![image](https://user-images.githubusercontent.com/58860863/174215541-7a1064cc-f805-44de-8df5-2441a7ea30af.png)
+![image4](https://user-images.githubusercontent.com/58860863/174215541-7a1064cc-f805-44de-8df5-2441a7ea30af.png)
 
 Well as you can see my macro do the follow steps:
 
