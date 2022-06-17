@@ -58,7 +58,8 @@ Well as you can see my macro do the follow steps:
 - Wait three seconds
 - And make and notification that’s showed on my mi band 6.
 
-Result
+## **RESULT**
+
 ![image](https://user-images.githubusercontent.com/58860863/174217064-7388052c-67a2-462a-b2af-7b20e099f55c.png)
 
 That's all, folks 🐷.
