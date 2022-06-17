@@ -54,7 +54,7 @@ Well as you can see my macro do the follow steps:
 
 - The trigger its when I enable the silent mode from my phone when he is it on my bag (for this case your proximity sensor its near, that means that I’m not with my phone in my hand making the feature useful yet when I want to put silent mode on my phone, because he is it in my hand and not into my bag).
 - When the trigger is fired my macro get my current localization.
-- Make an http request with method **GET** to my API passing my current localization and and drop off localization that I put into a variable inside the app
+- Make a http request with method **GET** to my API passing my current localization and drop off localization that I put into a variable inside the app
 - Wait three seconds
 - And make and notification that’s showed on my mi band 6.
 
