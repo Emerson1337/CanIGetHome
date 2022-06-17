@@ -28,7 +28,7 @@ Response
 
 Of course that I send some info even that above, like my authentication cookie inside headers but I don’t want to show it for you 🥵. You  know 😏, I’m dumb but not so.
 
-WELLL. So as you see some values its returned inside an object called fares inside fareEstimates. After made some analysis I discovered that the code attributes inside fares object is a different way to identify Uber rides types. So I discover that 
+WELLL. So as you see some values its returned inside an object called fares inside fareEstimates. After made some analysis I discovered that the code attributes inside fares object is a different way to identify Uber rides types. So I discovered that 
 
 ```
 20022265 = comfort
