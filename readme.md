@@ -8,7 +8,7 @@ The main idea is the possibility to me to get the estimate uber rides prices thr
 - [x]  Write a quickly resume how to use
 - [x]  Publish writing and repository and
 
-# **Well**, **how the hell did you do that**?
+# **Well**, **how the hell you did that**?
 
 Firstly, you should know that the mi band 6 don’t make all work, actually my phone and an API made by me do all work.
 
