@@ -18,7 +18,7 @@ export class EstimatePriceUberService {
 
     await request.json().then((json) => {
       let fares: any;
-      console.log(json.data.fareEstimate);
+
       if (json.data.fareEstimate) {
         fares = json.data.fareEstimate.fares;
       } else {
