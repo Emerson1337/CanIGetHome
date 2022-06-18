@@ -6,7 +6,7 @@ The main idea is the possibility to me to get the estimate uber rides prices thr
 - [x]  Use something to automatize the action with just two clicks (Destination, get prices)
 - [x]  Return me through notification all ride price options from uber app
 - [x]  Write a quickly resume how to use
-- [x]  Publish writing and repository and
+- [x]  Publish writing and repository
 
 # **Well**, **how the hell you did that**?
 
