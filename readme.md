@@ -48,7 +48,7 @@ After built the API the next step its to configure my phone to make some request
 
 ## **THE MACROGOD**
 
-![image4](https://user-images.githubusercontent.com/58860863/174215541-7a1064cc-f805-44de-8df5-2441a7ea30af.png)
+![image](https://user-images.githubusercontent.com/58860863/174417315-7f70bad0-a456-4455-b649-659f5c70cdd1.png)
 
 Well as you can see my macro do the follow steps:
 
