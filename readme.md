@@ -62,4 +62,7 @@ Well as you can see my macro do the follow steps:
 
 ![image](https://user-images.githubusercontent.com/58860863/174217064-7388052c-67a2-462a-b2af-7b20e099f55c.png)
 
+Video showing how works.
+https://youtu.be/y8t5UT-AN6E
+
 That's all, folks 🐷.
