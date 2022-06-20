@@ -1,6 +1,10 @@
 import { Request, Response, Router } from "express";
+import { sign } from "jsonwebtoken";
 
+import { Auth } from "../middlewares/authentication";
 import { EstimatePricesController } from "./../modules/uberEstimate/EstimatePricesController";
+
+const auth = new Auth();
 
 const router = Router();
 
@@ -10,6 +14,7 @@ const estimatePricesController = new EstimatePricesController();
 //AUTH AND OTHER THINS ABOUT USER
 router.get(
   "/api/get-prices/:dropoff/:pickup",
+  auth.authMiddleware,
   estimatePricesController.getPricesUber
 );
 
