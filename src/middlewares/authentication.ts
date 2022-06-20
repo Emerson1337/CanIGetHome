@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import jwt from "jsonwebtoken";
+import * as jwt from "jsonwebtoken";
 
 export class Auth {
   async authMiddleware(
@@ -20,7 +20,6 @@ export class Auth {
     const parts = token.split(" ");
 
     const [scheme, tokenValid] = parts;
-
     jwt.verify(tokenValid, pass, (err, decoded) => {
       if (err) {
         return response
