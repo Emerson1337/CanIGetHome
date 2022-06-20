@@ -11,7 +11,7 @@ export class Auth {
 
     if (!token) {
       return response.status(403).send({
-        error: "Tu precisa de um token, men. Para aí, vai.",
+        error: "Você precisa de um token secreto pra acessar a API.",
       });
     }
 
@@ -25,7 +25,7 @@ export class Auth {
       if (err) {
         return response
           .status(403)
-          .send({ error: "Teu token não passou no meu sensor kk." });
+          .send({ error: "Teu token não é válido." });
       }
       response.locals.decodedToken = decoded;
     });
