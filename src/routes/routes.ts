@@ -11,7 +11,6 @@ const router = Router();
 const estimatePricesController = new EstimatePricesController();
 
 //API ROUTES
-//AUTH AND OTHER THINS ABOUT USER
 router.get(
   "/api/get-prices/:dropoff/:pickup",
   auth.authMiddleware,
