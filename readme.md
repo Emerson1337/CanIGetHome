@@ -10,11 +10,11 @@ The main idea is the possibility to me to get the estimate uber rides prices thr
 
 # **Well**, **how the hell you did that**?
 
-Firstly, you should know that the mi band 6 don’t make all work, actually my phone and an API made by me do all work.
+Firstly, you should know the mi band 6 don’t make all work, actually my phone and an API made by me do all work.
 
-Ok… Right… The first question that I had when I decided to do this automatization it’s how can I get prices uber from a place to another place. Like, how can I access this info? How can I pass my localization pickup and where I wish drop off? And there I thought about web scraping to do that work. Ok, I’m lying if I told you that was my first thought. Actually I was search about Uber API and I didn’t find anything very clear. So, when I was sad about the idea, I thought made a web scraping.
+Ok… Right… The first question I had when I decided to do this automatization it’s how can I get prices uber from a place to another place. Like, how can I access this info? How can I pass my localization pickup and where I wish drop off? And there I thought about web scraping to do that work. Ok, I’m lying if I told you it was my first thought. Actually I was search about Uber API and I didn’t find anything very clear. So, when I was sad about the idea, I thought made a web scraping.
 
-With a web scraping you can build any application that you want. So I decided to look some requests that a web application from Uber usually do and it was there where I found the sweet route called “graphl”, that made requests sending my pick up localization  and my drop off localization with an authentication cookie. Well, if I can do this request from an API that means that I can do what I wish to do. That’s great no?
+With a web scraping you can build any application you want. So I decided to look some Uber web application requests usually do and it was there where I found the sweet route called “graphql” who made requests sending my pick up localization  and my drop off localization with an authentication cookie. Well, if I can do this request from an API that means I can do what I wish to do. Great no?
 
 Follow the images about route
 
@@ -26,9 +26,9 @@ Response
 
 ![image2](https://user-images.githubusercontent.com/58860863/174215492-8a7ac7ac-73e0-47fd-b05f-af75974e97b6.png)
 
-Of course that I send some info even that above, like my authentication cookie inside headers but I don’t want to show it for you 🥵. You  know 😏, I’m dumb but not so.
+Of course I send some info even that above, like my authentication cookie inside headers but I don’t want to show it for you 🥵. You  know 😏, I’m dumb but not so.
 
-WELLL. So as you see some values its returned inside an object called fares inside fareEstimates. After made some analysis I discovered that the code attributes inside fares object is a different way to identify Uber rides types. So I discovered that 
+WELLL. So as you see some values its returned inside an object called fares inside fareEstimates. After made some analysis I discovered the code attributes inside fares object is a different way to identify Uber rides types. So I discovered this 
 
 ```
 20022265 = comfort
@@ -44,7 +44,7 @@ All right. If I can get this data from my API that means I do the hard work. And
 
 Repository link: https://github.com/Emerson1337/CanIGetHome
 
-After built the API the next step its to configure my phone to make some requests and generate notifications from this requests. For that I used an app called “MacroDroid” that do all my stuffs on my phone. There I made a macro configured to do all I want to show uber prices through my mi band.
+After built the API the next step its to configure my phone to make some requests and generate notifications from this requests. For that I used an app called “MacroDroid” to do all my stuffs on my phone. There I made a macro configured to do all I want to show uber prices through my mi band.
 
 ## **THE MACROGOD**
 
@@ -56,13 +56,13 @@ Well as you can see my macro do the follow steps:
 - When the trigger is fired my macro get my current localization.
 - Make a http request with method **GET** to my API passing my current localization and drop off localization that I put into a variable inside the app
 - Wait three seconds
-- And make notification that’s showed on my mi band 6.
+- And make notification to show on my mi band 6.
 
 ## **RESULT**
 
 ![image](https://user-images.githubusercontent.com/58860863/174217064-7388052c-67a2-462a-b2af-7b20e099f55c.png)
 
-Video showing how works.
+Video showing how it works.
 https://youtu.be/y8t5UT-AN6E
 
 That's all, folks 🐷.
