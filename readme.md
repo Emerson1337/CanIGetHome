@@ -12,7 +12,7 @@ The main idea is the possibility to me to get the estimate uber rides prices thr
 
 Firstly, you should know the mi band 6 don’t make all work, actually my phone and an API made by me do all work.
 
-Ok… Right… The first question I had when I decided to do this automatization it’s how can I get prices uber from a place to another place. Like, how can I access this info? How can I pass my localization pickup and where I wish drop off? And there I thought about web scraping to do that work. Ok, I’m lying if I told you it was my first thought. Actually I was searching about Uber API and I didn’t find anything very clear. So when I was sad about the idea, I thought to made a web scraping.
+Ok… Right… The first question I had when I decided to do this automatization it’s how can I get uber ride estimate from a place to another place. Like, how can I access this info? How can I pass my localization pickup and where I wish drop off? And there I thought about web scraping to do that work. Ok, I’m lying if I told you it was my first thought. Actually I was searching about Uber API and I didn’t find anything very clear. So when I was sad about the idea, I thought to made a web scraping.
 
 With a web scraping you can build any application you want. So I decided to look some Uber web application requests usually do and it was there where I found the sweet route called “graphql” who made requests sending my pick up localization and my drop off localization with an authentication cookie. Well, if I can do this request from an API that means I can do what I wish to do. Great no?
 
